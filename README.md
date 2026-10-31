@@ -1,19 +1,25 @@
-# SuperNova Flagship — public paper track record
+# SuperNova portfolios
 
-> **PAPER / HYPOTHETICAL.** No real money is invested. Results are simulated fills on a paper ledger and are not indicative of future results. Not investment advice.
+I'm Kaleb Fox, and this is where I keep a public record of two portfolios I run with paper money. No real money is in these. The trades are simulated, so treat the numbers as hypothetical and don't take any of it as investment advice.
 
-- **Portfolio:** SuperNova Flagship (formerly "SuperNova Portfolio"; ~$6,992 paper start on 2026-10-29; source `supernova_portfolio`)
-- **Universe:** long-only US stocks and ETFs, with a cash sleeve
-- **Record start:** October 31, 2026. `trades.csv` begins with an **opening snapshot** of the holdings on that date. Earlier history is deliberately not backfilled.
-- **Benchmark:** SPY close
+I started this record on October 31, 2026. Each portfolio begins with a snapshot of what it held that day. I didn't backfill anything from before that date.
 
-## Files
-- `trades.csv`: timestamp (CT), ticker, side, shares, price, reason, source_id. Rows are appended only.
-- `nav.csv`: date, NAV (USD, paper), SPY close, cumulative return since the record start, and source valuation date.
-- `proofs/YYYY-MM-DD.sha256` (+ `.ots`): SHA-256 hashes of each day's files, timestamped with [OpenTimestamps](https://opentimestamps.org/) on the Bitcoin blockchain.
-- `update_record.py`: the daily append script. It is idempotent.
+- **Flagship** is my main book: long-only US stocks and ETFs, plus a T-bill ETF (BIL) as cash.
+- **Moonshot** is the high-risk book: around 10 small and mid caps. It started the record already down about 8% from its $6,992 start on Oct 29, and I'm leaving that in.
 
-## How verification works
-1. Every day, the hashes of `trades.csv`/`nav.csv` are written to `proofs/<date>.sha256` and timestamped with `ots stamp`. Within a few hours the proof is anchored in a Bitcoin block, and later runs `ots upgrade` it to a full proof.
-2. To verify, check out the commit from that day and run `sha256sum -c proofs/<date>.sha256`, then `ots verify proofs/<date>.sha256.ots`. This shows the file contents existed no later than the Bitcoin block time, so entries cannot be backdated.
-3. Git history (and GitHub push timestamps, once published) shows that rows are only ever appended, never rewritten.
+<!-- table -->
+| Book | Start (Oct 31) | Latest | Return | SPY same period |
+|---|---|---|---|---|
+| Flagship | $6,843.88 | $6,843.88 (2026-10-30) | +0.00% | +0.00% |
+| Moonshot | $6,438.31 | $6,438.31 (2026-10-30) | +0.00% | +0.00% |
+<!-- /table -->
+
+Returns are measured from October 31. The SPY column shows how SPY did over the same stretch.
+
+## What's in here
+
+Each folder has `trades.csv` (every buy and sell, with my reason) and `nav.csv` (daily value next to the SPY close). `update_record.py` adds the day's trades and values.
+
+## Checking the dates
+
+Every update writes hashes of the files to `proofs/`, and that file gets timestamped on the Bitcoin blockchain with [OpenTimestamps](https://opentimestamps.org/). To check a day, check out that commit, run `sha256sum -c proofs/<file>.sha256`, then `ots verify proofs/<file>.sha256.ots`. That shows the files existed by that date, so I can't go back and change them later.
