@@ -1,0 +1,13 @@
+timestamp_ct,ticker,side,shares,price,reason,source_id
+2026-10-31 14:33:59 CDT,NVDA,OPEN_SNAPSHOT,3.8772,204.6400,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,GOOGL,OPEN_SNAPSHOT,2.9258,279.8400,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,MSFT,OPEN_SNAPSHOT,1.2943,521.9100,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,MU,OPEN_SNAPSHOT,0.5779,884.7400,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,NOW,OPEN_SNAPSHOT,4.0481,105.1200,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,V,OPEN_SNAPSHOT,1.5543,413.5900,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,PGR,OPEN_SNAPSHOT,2.4487,231.2800,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,XOM,OPEN_SNAPSHOT,2.9397,187.2500,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,LDOS,OPEN_SNAPSHOT,3.8468,142.9800,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,BIL,OPEN_SNAPSHOT,8.0682,91.7000,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,LLY,OPEN_SNAPSHOT,0.4020,1417.5400,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
+2026-10-31 14:33:59 CDT,CASH,OPEN_SNAPSHOT,0.00,1,Opening cash snapshot (paper),snapshot
