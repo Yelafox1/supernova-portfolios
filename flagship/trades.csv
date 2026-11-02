@@ -11,3 +11,13 @@ timestamp_ct,ticker,side,shares,price,reason,source_id
 2026-10-31 14:33:59 CDT,BIL,OPEN_SNAPSHOT,8.0682,91.7000,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
 2026-10-31 14:33:59 CDT,LLY,OPEN_SNAPSHOT,0.4020,1417.5400,"Opening position snapshot (paper), valued at 2026-10-30 close",snapshot
 2026-10-31 14:33:59 CDT,CASH,OPEN_SNAPSHOT,0.00,1,Opening cash snapshot (paper),snapshot
+2026-11-02 (CT session),NVDA,SELL,3.8772,208.035,SELL R2a score 47.6 in bottom third of universe (rank 33%),ce78dda9e85b
+2026-11-02 (CT session),GOOGL,SELL,2.9258,286.305,SELL R2a score 40.7 in bottom third of universe (rank 7%),1a43407c1451
+2026-11-02 (CT session),NOW,SELL,4.0481,107.55,SELL R2a score 40.2 in bottom third of universe (rank 5%),eda1addf2ebc
+2026-11-02 (CT session),ABBV,BUY,1.8992,289.8625,"R2b replaces NVDA: top-scoring watchlist name (score 62.5), bought at 8%",75f3ecd7f1bf
+2026-11-02 (CT session),MA,BUY,0.8435,652.61,"R2b replaces GOOGL: top-scoring watchlist name (score 60.9), bought at 8%",5a3069c2b012
+2026-11-02 (CT session),KO,BUY,5.7935,95.02,"R2b replaces NOW: top-scoring watchlist name (score 57.3), bought at 8%",e3feeff2c1b9
+2026-11-02 (CT session),LLY,BUY,0.1832,1411.075,R2d cash 16.9% > 15%: add to high scorer toward 10% cash,64164075495f
+2026-11-02 (CT session),BIL,BUY,1.856,91.405,cash sweep into/out of BIL (T-bill cash sleeve),5dda3ad54db7
+2026-11-02 (CT session),LDOS,SELL,0.0473,144.16,"R1 earnings guard: reports 2026-11-03, weight 8.1% > 8%, cut to 8%",a55e0e5369a1
+2026-11-02 (CT session),BIL,BUY,0.0746,91.41,cash sweep into/out of BIL (T-bill cash sleeve),0abc235d5c9f

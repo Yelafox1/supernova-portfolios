@@ -8,8 +8,8 @@ The record starts October 31, 2026, with whatever each portfolio held that day. 
 
 | Portfolio | Start (Oct 31) | Latest | Return | SPY same period |
 |---|---|---|---|---|
-| Flagship | $6,843.88 | $6,843.88 (2026-10-30) | +0.00% | +0.00% |
-| Moonshot | $6,438.31 | $6,438.31 (2026-10-30) | +0.00% | +0.00% |
+| Flagship | $6,843.88 | $6,846.74 (2026-11-02) | +0.04% | n/a |
+| Moonshot | $6,438.31 | $5,940.70 (2026-11-02) | -7.73% | n/a |
 
 **Flagship** is the core portfolio: quality large-cap US stocks with strong growth and momentum, reviewed every week. It caps how much any one stock or theme can hold, keeps a cash buffer, and shifts toward defensive names when markets weaken.
 
