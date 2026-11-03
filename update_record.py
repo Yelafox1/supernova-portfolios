@@ -14,12 +14,15 @@ PERF = "/workspace/supernova_perf/nav_daily.csv"
 BOOKS = {  # folder: (source dir, name in perf file)
     "flagship": ("/workspace/supernova_portfolio", "SuperNova Portfolio"),
     "moonshot": ("/workspace/supernova_moonshot", "SuperNova Moonshot"),
+    "pulsar": ("/workspace/supernova_pulsar", "SuperNova Pulsar"),
 }
-LABEL = {"flagship": "SuperNova Orbit", "moonshot": "Moonshot"}  # display names only; folder keys stay (flagship = Orbit, renamed Nov 3 2026)
+LABEL = {"flagship": "SuperNova Orbit", "moonshot": "Moonshot", "pulsar": "SuperNova Pulsar"}  # display names only; folder keys stay (flagship = Orbit, renamed Nov 3 2026)
 START = "2026-10-31"
+START_NAV = {"pulsar": (5000.0, "Nov 3")}  # books that began after START: (starting cash, start label)
 OTS = os.path.expanduser("~/.local/bin/ots")
 now = dt.datetime.now(ZoneInfo("America/Chicago")); today = now.date().isoformat()
 TF = ["timestamp_ct", "ticker", "side", "shares", "price", "reason", "source_id"]
+HF = ["ticker", "shares", "entry_price", "entry_date"]
 NF = ["date", "nav", "spy_close", "cumulative_return", "source_asof"]
 
 def rows(p):
@@ -34,11 +37,11 @@ table = []
 for folder, (src, pname) in BOOKS.items():
     out = os.path.join(REC, folder); os.makedirs(out, exist_ok=True)
     st = json.load(open(os.path.join(src, "state.json")))
-    led = rows(os.path.join(src, "ledger.csv"))[-1]
+    ledger = rows(os.path.join(src, "ledger.csv")); led = ledger[-1] if ledger else None
     spy = {r["date"]: r["spy_close"] for r in perf if r["portfolio"] == pname}
 
     trades = rows(f"{out}/trades.csv")
-    if not trades:  # starting snapshot of what the book holds today, no history
+    if not trades and led:  # starting snapshot of what the book holds today, no history
         import yfinance as yf
         pos = st["positions"]; ts = now.strftime("%Y-%m-%d %H:%M:%S %Z")
         end = (dt.date.fromisoformat(led["date"]) + dt.timedelta(days=1)).isoformat()
@@ -57,26 +60,33 @@ for folder, (src, pname) in BOOKS.items():
                                shares=t["shares"], price=t["price"], reason=t.get("reason", ""), source_id=sid))
             seen.add(sid)
     write(f"{out}/trades.csv", TF, trades)
+    if folder in START_NAV:  # newer books also publish current holdings
+        write(f"{out}/holdings.csv", HF, [dict(ticker=k, shares=f"{v:.4f}", entry_price=f"{st.get('meta', {}).get(k, {}).get('entry', 0):.4f}",
+              entry_date=st.get("meta", {}).get(k, {}).get("entry_date", "")) for k, v in st["positions"].items()]
+              + [dict(ticker="CASH", shares=f"{st.get('cash', 0):.2f}", entry_price="1", entry_date="")])
 
     nav = rows(f"{out}/nav.csv")
-    if not (nav and nav[-1]["source_asof"] == led["date"]) and not any(n["date"] == today for n in nav):
-        base = float(nav[0]["nav"]) if nav else float(led["nav"]); v = float(led["nav"])
+    sn, slabel = START_NAV.get(folder, (None, "Oct 31"))
+    if led and not (nav and nav[-1]["source_asof"] == led["date"]) and not any(n["date"] == today for n in nav):
+        base = float(nav[0]["nav"]) if nav else (sn or float(led["nav"])); v = float(led["nav"])
         nav.append(dict(date=today, nav=f"{v:.2f}", spy_close=spy.get(led["date"], ""),
                         cumulative_return=f"{v / base - 1:.6f}", source_asof=led["date"]))
     write(f"{out}/nav.csv", NF, nav)
+    if not nav:  # no close recorded yet
+        table.append(f"| {LABEL.get(folder, folder.capitalize())} | ${sn:,.2f} ({slabel}) | awaiting first close | +0.00% | n/a |"); continue
     a, b = nav[0], nav[-1]
     try: vs = f"{float(b['spy_close']) / float(a['spy_close']) - 1:+.2%}"
     except ValueError: vs = "n/a"
-    table.append(f"| {LABEL.get(folder, folder.capitalize())} | ${float(a['nav']):,.2f} | ${float(b['nav']):,.2f} ({b['source_asof']}) "
-                 f"| {float(b['cumulative_return']):+.2%} | {vs} |")
+    table.append(f"| {LABEL.get(folder, folder.capitalize())} | ${sn or float(a['nav']):,.2f} ({slabel}) | ${float(b['nav']):,.2f} ({b['source_asof']}) "
+                 f"| {(float(b['nav']) / sn - 1) if sn else float(b['cumulative_return']):+.2%} | {vs} |")
 
 README = """# SuperNova portfolios
 
-These two portfolios are run entirely by SuperNova, an AI I set up to manage money on its own. It picks the stocks, decides when to buy and sell, and makes every trade, and I don't override it. For now it's paper money, so treat the numbers as hypothetical and not investment advice.
+These portfolios are run entirely by SuperNova, an AI I set up to manage money on its own. It picks the stocks, decides when to buy and sell, and makes every trade, and I don't override it. For now it's paper money, so treat the numbers as hypothetical and not investment advice.
 
 SuperNova works from public market data, company filings, analyst estimates, and congressional and fund holdings disclosures. It also studies the trades of other AI-run portfolios and well-known investors to test and sharpen its own thinking.
 
-The record starts October 31, 2026, with whatever each portfolio held that day. Nothing before that date is included.
+The record starts October 31, 2026, with whatever each portfolio held that day. Nothing before that date is included. Portfolios added later start on their own launch date.
 
 {table}
 
@@ -86,10 +96,12 @@ The record starts October 31, 2026, with whatever each portfolio held that day. 
 
 _Renamed from SuperNova Flagship on Nov 3 2026; prior records under Flagship are the same book._ (Its files still live in the `flagship/` folder.)
 
+**SuperNova Pulsar** is the calm portfolio: a dozen conservative, high-quality compounders (high returns on capital, low debt, steady earnings) bought in roughly equal weights and mostly left alone. It uses no stop-losses, flags any holding that drifts above 13% or below 4% of the book, and reviews the lineup quarterly (next on Feb 1, 2027). Paper money, starting with $5,000 on Nov 3, 2026.
+
 Every trade is listed in each portfolio's folder with the reason behind it, and each day's record is timestamped so it can't be changed later.
 """
 # README is regenerated from the template above with the live table (edit the template if the strategy changes)
-tbl = "| Portfolio | Start (Oct 31) | Latest | Return | SPY same period |\n|---|---|---|---|---|\n" + "\n".join(table)
+tbl = "| Portfolio | Start | Latest | Return | SPY same period |\n|---|---|---|---|---|\n" + "\n".join(table)
 open(f"{REC}/README.md", "w").write(README.replace("{table}", tbl))
 
 def run(*a, check=True):
@@ -101,7 +113,7 @@ for p in sorted(glob.glob(f"{REC}/proofs/*.ots")):  # finish older proofs once B
     for bak in glob.glob(p + ".bak"): os.remove(bak)
 
 os.makedirs(f"{REC}/proofs", exist_ok=True)
-files = ["README.md", "update_record.py"] + [f"{b}/{f}" for b in BOOKS for f in ("trades.csv", "nav.csv")]
+files = ["README.md", "update_record.py"] + [f"{b}/{f}" for b in BOOKS for f in ("trades.csv", "nav.csv", "holdings.csv") if os.path.exists(f"{REC}/{b}/{f}")]
 man_txt = "".join(f"{hashlib.sha256(open(f'{REC}/{f}', 'rb').read()).hexdigest()}  {f}\n" for f in files)
 last = sorted(glob.glob(f"{REC}/proofs/*.sha256"))
 if not last or open(last[-1]).read() != man_txt:
