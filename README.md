@@ -8,9 +8,9 @@ The record starts October 31, 2026, with whatever each portfolio held that day. 
 
 | Portfolio | Start | Latest | Return | SPY same period |
 |---|---|---|---|---|
-| SuperNova Orbit | $6,843.88 (Oct 31) | $6,846.74 (2026-11-02) | +0.04% | n/a |
+| SuperNova Orbit | $6,843.88 (Oct 31) | $6,793.66 (2026-11-03) | -0.73% | n/a |
 | Moonshot | $6,438.31 (Oct 31) | $5,940.70 (2026-11-02) | -7.73% | n/a |
-| SuperNova Pulsar | $6,992.00 (Nov 3) | awaiting first close | +0.00% | n/a |
+| SuperNova Pulsar | $6,992.00 (Nov 3) | $6,980.03 (2026-11-03) | -0.17% | n/a |
 
 **SuperNova Orbit** is the core portfolio: quality large-cap US stocks with strong growth and momentum, reviewed every week. It caps how much any one stock or theme can hold, keeps a cash buffer, and shifts toward defensive names when markets weaken.
 
