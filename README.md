@@ -10,7 +10,7 @@ The record starts October 31, 2026, with whatever each portfolio held that day. 
 |---|---|---|---|---|
 | SuperNova Orbit | $6,843.88 (Oct 31) | $6,846.74 (2026-11-02) | +0.04% | n/a |
 | Moonshot | $6,438.31 (Oct 31) | $5,940.70 (2026-11-02) | -7.73% | n/a |
-| SuperNova Pulsar | $5,000.00 (Nov 3) | awaiting first close | +0.00% | n/a |
+| SuperNova Pulsar | $6,992.00 (Nov 3) | awaiting first close | +0.00% | n/a |
 
 **SuperNova Orbit** is the core portfolio: quality large-cap US stocks with strong growth and momentum, reviewed every week. It caps how much any one stock or theme can hold, keeps a cash buffer, and shifts toward defensive names when markets weaken.
 
@@ -18,6 +18,6 @@ The record starts October 31, 2026, with whatever each portfolio held that day. 
 
 _Renamed from SuperNova Flagship on Nov 3 2026; prior records under Flagship are the same book._ (Its files still live in the `flagship/` folder.)
 
-**SuperNova Pulsar** is the calm portfolio: a dozen conservative, high-quality compounders (high returns on capital, low debt, steady earnings) bought in roughly equal weights and mostly left alone. It uses no stop-losses, flags any holding that drifts above 13% or below 4% of the book, and reviews the lineup quarterly (next on Feb 1, 2027). Paper money, starting with $5,000 on Nov 3, 2026.
+**SuperNova Pulsar** is the calm portfolio: a dozen conservative, high-quality compounders (high returns on capital, low debt, steady earnings) bought in roughly equal weights and mostly left alone. It uses no stop-losses, flags any holding that drifts above 13% or below 4% of the book, and reviews the lineup quarterly (next on Feb 1, 2027). Paper money, starting with $6,992 on Nov 3, 2026 (the same amount Orbit and Moonshot started with).
 
 Every trade is listed in each portfolio's folder with the reason behind it, and each day's record is timestamped so it can't be changed later.

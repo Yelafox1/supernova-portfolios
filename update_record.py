@@ -18,7 +18,7 @@ BOOKS = {  # folder: (source dir, name in perf file)
 }
 LABEL = {"flagship": "SuperNova Orbit", "moonshot": "Moonshot", "pulsar": "SuperNova Pulsar"}  # display names only; folder keys stay (flagship = Orbit, renamed Nov 3 2026)
 START = "2026-10-31"
-START_NAV = {"pulsar": (5000.0, "Nov 3")}  # books that began after START: (starting cash, start label)
+START_NAV = {"pulsar": (6992.0, "Nov 3")}  # books that began after START: (starting cash, start label)
 OTS = os.path.expanduser("~/.local/bin/ots")
 now = dt.datetime.now(ZoneInfo("America/Chicago")); today = now.date().isoformat()
 TF = ["timestamp_ct", "ticker", "side", "shares", "price", "reason", "source_id"]
@@ -96,7 +96,7 @@ The record starts October 31, 2026, with whatever each portfolio held that day. 
 
 _Renamed from SuperNova Flagship on Nov 3 2026; prior records under Flagship are the same book._ (Its files still live in the `flagship/` folder.)
 
-**SuperNova Pulsar** is the calm portfolio: a dozen conservative, high-quality compounders (high returns on capital, low debt, steady earnings) bought in roughly equal weights and mostly left alone. It uses no stop-losses, flags any holding that drifts above 13% or below 4% of the book, and reviews the lineup quarterly (next on Feb 1, 2027). Paper money, starting with $5,000 on Nov 3, 2026.
+**SuperNova Pulsar** is the calm portfolio: a dozen conservative, high-quality compounders (high returns on capital, low debt, steady earnings) bought in roughly equal weights and mostly left alone. It uses no stop-losses, flags any holding that drifts above 13% or below 4% of the book, and reviews the lineup quarterly (next on Feb 1, 2027). Paper money, starting with $6,992 on Nov 3, 2026 (the same amount Orbit and Moonshot started with).
 
 Every trade is listed in each portfolio's folder with the reason behind it, and each day's record is timestamped so it can't be changed later.
 """
