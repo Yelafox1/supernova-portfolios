@@ -15,6 +15,7 @@ BOOKS = {  # folder: (source dir, name in perf file)
     "flagship": ("/workspace/supernova_portfolio", "SuperNova Portfolio"),
     "moonshot": ("/workspace/supernova_moonshot", "SuperNova Moonshot"),
 }
+LABEL = {"flagship": "SuperNova Orbit", "moonshot": "Moonshot"}  # display names only; folder keys stay (flagship = Orbit, renamed Nov 3 2026)
 START = "2026-10-31"
 OTS = os.path.expanduser("~/.local/bin/ots")
 now = dt.datetime.now(ZoneInfo("America/Chicago")); today = now.date().isoformat()
@@ -66,7 +67,7 @@ for folder, (src, pname) in BOOKS.items():
     a, b = nav[0], nav[-1]
     try: vs = f"{float(b['spy_close']) / float(a['spy_close']) - 1:+.2%}"
     except ValueError: vs = "n/a"
-    table.append(f"| {folder.capitalize()} | ${float(a['nav']):,.2f} | ${float(b['nav']):,.2f} ({b['source_asof']}) "
+    table.append(f"| {LABEL.get(folder, folder.capitalize())} | ${float(a['nav']):,.2f} | ${float(b['nav']):,.2f} ({b['source_asof']}) "
                  f"| {float(b['cumulative_return']):+.2%} | {vs} |")
 
 README = """# SuperNova portfolios
@@ -79,9 +80,11 @@ The record starts October 31, 2026, with whatever each portfolio held that day. 
 
 {table}
 
-**Flagship** is the core portfolio: quality large-cap US stocks with strong growth and momentum, reviewed every week. It caps how much any one stock or theme can hold, keeps a cash buffer, and shifts toward defensive names when markets weaken.
+**SuperNova Orbit** is the core portfolio: quality large-cap US stocks with strong growth and momentum, reviewed every week. It caps how much any one stock or theme can hold, keeps a cash buffer, and shifts toward defensive names when markets weaken.
 
 **Moonshot** is the high-risk portfolio, hunting for the next big runner among small and mid-size companies whose sales and analyst estimates are climbing fast. It lets winners run and cuts losers quickly. It started this record already down about 8% from its $6,992 start on Oct 29, and I'm leaving that in.
+
+_Renamed from SuperNova Flagship on Nov 3 2026; prior records under Flagship are the same book._ (Its files still live in the `flagship/` folder.)
 
 Every trade is listed in each portfolio's folder with the reason behind it, and each day's record is timestamped so it can't be changed later.
 """
