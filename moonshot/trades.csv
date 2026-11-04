@@ -12,3 +12,4 @@ timestamp_ct,ticker,side,shares,price,reason,source_id
 2026-10-31 15:02:55 CDT,CASH,OPEN_SNAPSHOT,0.00,1,starting cash,snapshot
 2026-11-02 (CT session),SMCI,SELL,6.6673,30.4869,"M3 earnings guard: reports 2026-11-03 (1 trading days), weight 10.4% cut to 7%, proceeds held as cash",b41cb6698afd
 2026-11-02 (CT session),SITM,SELL,0.4417,419.68,"M3 earnings guard: reports 2026-11-04 (2 trading days), weight 10.1% cut to 7%, proceeds held as cash",abc4683dbbca
+2026-11-03 (CT session),SITM,SELL,0.02,444.88,"M3 earnings guard: reports 2026-11-04 (1 trading days), weight 7.1% cut to 7%, proceeds held as cash",42ec11ee4f7e
