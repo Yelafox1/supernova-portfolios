@@ -13,3 +13,9 @@ timestamp_ct,ticker,side,shares,price,reason,source_id
 2026-11-02 (CT session),SMCI,SELL,6.6673,30.4869,"M3 earnings guard: reports 2026-11-03 (1 trading days), weight 10.4% cut to 7%, proceeds held as cash",b41cb6698afd
 2026-11-02 (CT session),SITM,SELL,0.4417,419.68,"M3 earnings guard: reports 2026-11-04 (2 trading days), weight 10.1% cut to 7%, proceeds held as cash",abc4683dbbca
 2026-11-03 (CT session),SITM,SELL,0.02,444.88,"M3 earnings guard: reports 2026-11-04 (1 trading days), weight 7.1% cut to 7%, proceeds held as cash",42ec11ee4f7e
+2026-11-05 (CT session),SMTC,SELL,4.9641,91.54,M1 trailing stop: closed -35% below its peak $140.85 since entry,a575d0282f89
+2026-11-05 (CT session),P,SELL,5.0962,93.44,M1 trailing stop: closed -32% below its peak $137.20 since entry,910644bf46ea
+2026-11-05 (CT session),NBIS,SELL,4.0653,120.37,M1 trailing stop: closed -30% below its peak $171.99 since entry,fe6ae95f16bc
+2026-11-05 (CT session),AXTI,SELL,11.4849,36.72,M1 trailing stop: closed -40% below its peak $60.88 since entry,beff53ab12e8
+2026-11-05 (CT session),SITM,SELL,0.9709,355.0,M1 trailing stop: closed -27% below its peak $488.08 since entry,eb308964dc79
+2026-11-05 (CT session),SIMO,SELL,3.0701,156.27,M1 trailing stop: closed -31% below its peak $227.75 since entry,337cccb2722d
