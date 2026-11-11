@@ -1,0 +1,14 @@
+timestamp_ct,ticker,side,shares,price,reason,source_id
+2026-11-11 (start),FAST,OPEN_SNAPSHOT,10.6398,54.8400,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),ODFL,OPEN_SNAPSHOT,3.1555,168.0200,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),CTAS,OPEN_SNAPSHOT,2.4771,225.2800,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),GWW,OPEN_SNAPSHOT,0.4045,1472.9100,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),IDXX,OPEN_SNAPSHOT,0.8438,696.6400,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),KLAC,OPEN_SNAPSHOT,3.5319,152.9900,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),MNST,OPEN_SNAPSHOT,11.7198,45.3400,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),ADP,OPEN_SNAPSHOT,1.8810,305.4400,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),COST,OPEN_SNAPSHOT,0.5419,1066.1400,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),TJX,OPEN_SNAPSHOT,3.9906,136.9200,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),APH,OPEN_SNAPSHOT,6.8657,79.9500,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),ADBE,OPEN_SNAPSHOT,2.2553,236.7000,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),CASH,OPEN_SNAPSHOT,279.68,1,starting cash,snapshot

@@ -1,0 +1,6 @@
+timestamp_ct,ticker,side,shares,price,reason,source_id
+2026-11-11 (start),SMCI,OPEN_SNAPSHOT,13.6403,27.7900,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),MDB,OPEN_SNAPSHOT,1.8163,331.9800,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),ZS,OPEN_SNAPSHOT,2.8214,194.9200,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),NTAP,OPEN_SNAPSHOT,3.2012,175.9900,"starting position, priced at the Nov 10 close",snapshot
+2026-11-11 (start),CASH,OPEN_SNAPSHOT,3063.64,1,starting cash,snapshot

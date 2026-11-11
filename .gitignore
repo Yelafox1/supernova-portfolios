@@ -1,0 +1,5 @@
+backups/
+update_record.py
+__pycache__/
+*.tmp
+*.bak
