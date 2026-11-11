@@ -4,11 +4,15 @@ These are my SuperNova paper portfolios. They trade paper money, so treat every 
 
 The record starts November 11, 2026. Each portfolio starts at what it was worth going into that day (its November 10 closing value), and returns are measured from there against SPY over the same period. Nothing before November 11 is included.
 
+![SuperNova portfolios vs SPY](chart.png)
+
+Paper portfolios, percent return since November 11, 2026, compared with SPY.
+
 | Portfolio | Start value (Nov 11, 2026) | Latest close | Return | SPY same period |
 |---|---|---|---|---|
-| SuperNova Orbit | $6,760.60 | first close posts after the Nov 11 close | n/a | n/a |
+| SuperNova Orbit | $6,760.60 | $6,817.05 (Nov 11) | +0.83% | +1.32% |
 | SuperNova Moonshot | $5,159.01 | first close posts after the Nov 11 close | n/a | n/a |
-| SuperNova Pulsar | $6,988.14 | first close posts after the Nov 11 close | n/a | n/a |
+| SuperNova Pulsar | $6,988.14 | $7,056.43 (Nov 11) | +0.98% | +1.32% |
 
 **SuperNova Orbit** is a concentrated growth portfolio of up to 20 high-conviction U.S. stocks, built to compete against the S&P 500. It pairs leaders in fast-growing themes like technology with a core of high-quality companies, and shifts weight toward what is working. Risk is managed with strict position and sector limits, a small cash buffer and a disciplined drawdown process. Orbit is reviewed weekly.
 
