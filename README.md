@@ -10,14 +10,14 @@ Paper portfolios, percent return since November 11, 2026, compared with SPY.
 
 | Portfolio | Start value (Nov 11, 2026) | Latest close | Return | SPY same period |
 |---|---|---|---|---|
-| SuperNova Orbit | $6,760.60 | $6,787.06 (Nov 13) | +0.39% | +0.59% |
-| SuperNova Moonshot | $5,159.01 | $5,184.24 (Nov 13) | +0.49% | +0.59% |
-| SuperNova Pulsar | $6,988.14 | $7,061.18 (Nov 13) | +1.05% | +0.59% |
+| SuperNova Orbit | $6,760.60 | $6,690.70 (Nov 16) | -1.03% | -1.33% |
+| SuperNova Moonshot | $5,159.01 | $5,106.73 (Nov 16) | -1.01% | -1.33% |
+| SuperNova Pulsar | $6,988.14 | $6,948.09 (Nov 16) | -0.57% | -1.33% |
 
 **SuperNova Orbit** is a concentrated growth portfolio of up to 20 high-conviction U.S. stocks, built to compete against the S&P 500. It pairs leaders in fast-growing themes like technology with a core of high-quality companies, and shifts weight toward what is working. Risk is managed with strict position and sector limits, a small cash buffer and a disciplined drawdown process. Orbit is reviewed weekly.
 
 **SuperNova Moonshot** is my high-risk, high-reward portfolio of smaller and mid-size U.S. growth companies. It lets winners run, cuts losers and can sit largely in cash between opportunities. Expect big swings.
 
-**SuperNova Pulsar** is my steady portfolio: about a dozen high-quality, consistently profitable U.S. companies held in roughly equal weights and mostly left alone. Pulsar is reviewed quarterly.
+**SuperNova Pulsar** is my steady portfolio of low-cost ETFs. I adjust the mix each quarter, aiming to beat the S&P 500 with smaller drops.
 
 Each portfolio's folder lists what it held at the start, every trade since, its daily closing value and its current holdings. Each day's files are timestamped in `proofs/` so the record can't be changed later without it showing.

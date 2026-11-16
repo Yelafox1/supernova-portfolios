@@ -12,3 +12,19 @@ timestamp_ct,ticker,side,shares,price,reason,source_id
 2026-11-11 (start),APH,OPEN_SNAPSHOT,6.8657,79.9500,"starting position, priced at the Nov 10 close",snapshot
 2026-11-11 (start),ADBE,OPEN_SNAPSHOT,2.2553,236.7000,"starting position, priced at the Nov 10 close",snapshot
 2026-11-11 (start),CASH,OPEN_SNAPSHOT,279.68,1,starting cash,snapshot
+2026-11-16 (CT session),ADBE,SELL,2.2553,246.753,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",96d0c8212cc9
+2026-11-16 (CT session),ADP,SELL,1.8810,314.685,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",3477620b9001
+2026-11-16 (CT session),APH,SELL,6.8657,79.4505,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",d233e99ba79f
+2026-11-16 (CT session),COST,SELL,0.5419,1109.3495,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",75f24df09ddd
+2026-11-16 (CT session),CTAS,SELL,2.4771,228.0817,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",6552aed25588
+2026-11-16 (CT session),FAST,SELL,10.6398,55.2147,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",fdc77eee3f82
+2026-11-16 (CT session),GWW,SELL,0.4045,1501.7268,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",a905b8481eef
+2026-11-16 (CT session),IDXX,SELL,0.8438,704.295,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",abed30110b5e
+2026-11-16 (CT session),KLAC,SELL,3.5319,144.4554,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",9725e56d5272
+2026-11-16 (CT session),MNST,SELL,11.7198,47.2807,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",19ae4faa84c7
+2026-11-16 (CT session),ODFL,SELL,3.1555,174.6752,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",0384049f0170
+2026-11-16 (CT session),TJX,SELL,3.9906,133.906,"Sold the full position to switch to a fixed four-ETF mix (VOO, SCHD, SCHF, SCHG)",70c920dd4697
+2026-11-16 (CT session),VOO,BUY,2.0243,699.3586,"Switched to a fixed four-ETF mix: 20% VOO, 40% SCHD, 25% SCHF, 15% SCHG, rebalanced quarterly",14b784c16d30
+2026-11-16 (CT session),SCHD,BUY,78.4005,36.1161,"Switched to a fixed four-ETF mix: 20% VOO, 40% SCHD, 25% SCHF, 15% SCHG, rebalanced quarterly",f45beaa1c00e
+2026-11-16 (CT session),SCHF,BUY,65.5518,26.997,"Switched to a fixed four-ETF mix: 20% VOO, 40% SCHD, 25% SCHF, 15% SCHG, rebalanced quarterly",510f5a9e64b2
+2026-11-16 (CT session),SCHG,BUY,30.7644,34.5145,"Switched to a fixed four-ETF mix: 20% VOO, 40% SCHD, 25% SCHF, 15% SCHG, rebalanced quarterly",85981eb789ca
