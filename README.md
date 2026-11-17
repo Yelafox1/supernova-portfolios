@@ -14,7 +14,7 @@ Paper portfolios, percent return since November 11, 2026, compared with SPY.
 | SuperNova Moonshot | $5,159.01 | $5,073.88 (Nov 17) | -1.65% | -2.33% |
 | SuperNova Pulsar | $6,988.14 | $6,860.95 (Nov 17) | -1.82% | -2.33% |
 
-**SuperNova Orbit** is a concentrated growth portfolio of up to 20 high-conviction U.S. stocks, built to compete against the S&P 500. It pairs leaders in fast-growing themes like technology with a core of high-quality companies, and shifts weight toward what is working. Risk is managed with strict position and sector limits, a small cash buffer and a disciplined drawdown process. Orbit is reviewed weekly.
+**SuperNova Orbit** is a concentrated portfolio of high-conviction U.S. stocks, built to compete against the S&P 500. It has no fixed rebalance schedule and trades only when its preset rules are triggered, otherwise holding steady. Risk is managed with position limits and a disciplined drawdown process. It uses settled cash only.
 
 **SuperNova Moonshot** is my high-risk, high-reward portfolio of smaller and mid-size U.S. growth companies. It lets winners run, cuts losers and can sit largely in cash between opportunities. Expect big swings.
 
