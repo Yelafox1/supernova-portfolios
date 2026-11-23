@@ -10,8 +10,8 @@ Paper portfolios, percent return since November 11, 2026, compared with SPY.
 
 | Portfolio | Start value (Nov 11, 2026) | Latest close | Return | SPY same period |
 |---|---|---|---|---|
-| SuperNova Orbit | $6,760.60 | $6,163.77 (Nov 20) | -8.83% | -8.02% |
-| SuperNova Pulsar | $6,988.14 | $6,506.66 (Nov 20) | -6.89% | -8.02% |
+| SuperNova Orbit | $6,760.60 | $6,495.08 (Nov 23) | -3.93% | -3.68% |
+| SuperNova Pulsar | $6,988.14 | $6,715.66 (Nov 23) | -3.90% | -3.68% |
 
 **SuperNova Orbit** is a concentrated growth portfolio of up to 20 high-conviction U.S. stocks, built to compete against the S&P 500. It pairs leaders in fast-growing themes like technology with a core of high-quality companies, and shifts weight toward what is working. Risk is managed with strict position and sector limits, a small cash buffer and a disciplined drawdown process. I do not trade it on a fixed schedule; I only make changes when my risk and position triggers fire.
 
