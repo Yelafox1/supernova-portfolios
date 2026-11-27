@@ -64,3 +64,57 @@ timestamp_ct,ticker,side,shares,price,reason,source_id
 2026-11-19 (CT session),ABBV,BUY,1.0353,282.65,Fea7331f portal fill: bought AbbVie (ABBV). Live 0.11473 sh @ 282.65 at 10:47:28 AM CT Nov 19. Paper 1.0353 sh sized so ending weight matches the Nov 19 close sync.,48ebb5343fb6
 2026-11-19 (CT session),ADMA,SELL,1.6669,13.34,Sold as part of my regular review.,8fc894ff46af
 2026-11-19 (CT session),LLY,SELL,0.0291,1351.12,Sold as part of my regular review.,a085a5215bd3
+2026-11-25 (CT session),ABBV,SELL,0.3898,297.5,I trimmed AbbVie (ABBV). Trimmed to make room for names I like more. I still hold some.,45d1262d0e69
+2026-11-25 (CT session),ADMA,SELL,1.9562,14.23,Trimmed ADMA Biologics (ADMA) slightly at the close to keep its weight in line with the rest of the portfolio after the day's changes.,a53c1718765c
+2026-11-25 (CT session),AMAT,SELL,0.8563,293.85,"I sold all of my Applied Materials (AMAT). My chip names had grown into a bigger share of the portfolio than I want. AMAT, AMD, MU and APH tend to move together, so I sold them and kept my chip exposure in TSM, AVGO and ASML.",b25f9b9b060d
+2026-11-25 (CT session),AMD,SELL,0.5466,374.23,"I sold all of my Advanced Micro Devices (AMD). My chip names had grown into a bigger share of the portfolio than I want. AMD, MU, AMAT and APH tend to move together, so I sold them and kept my chip exposure in TSM, AVGO and ASML.",a8fbe582b02f
+2026-11-25 (CT session),AMZN,BUY,0.3853,238.15,I added to Amazon.com (AMZN). It is a name I already like and wanted more of.,079825b1b8cc
+2026-11-25 (CT session),AMZN,BUY,0.1404,244.63,I added to Amazon.com (AMZN). It is a name I already like and wanted more of.,55885fd01d29
+2026-11-25 (CT session),APH,SELL,3.4230,68.92,"I sold all of my Amphenol (APH). My chip-related names had grown into a bigger share of the portfolio than I want. APH tends to move with AMD, MU and AMAT, so I sold it.",c9bc2acd31e7
+2026-11-25 (CT session),ASML,BUY,0.1640,1251.54,"I bought ASML Holding (ASML). I still like the chip industry, and it runs through TSM, AVGO and ASML no matter who comes out on top.",ea538ae22e3a
+2026-11-25 (CT session),ASML,BUY,0.0286,1283.2,"I bought ASML Holding (ASML). I still like the chip industry, and it runs through TSM, AVGO and ASML no matter who comes out on top.",69ee8809c580
+2026-11-25 (CT session),AVGO,BUY,1.0348,284.14,"I bought Broadcom (AVGO). I still like the chip industry, and it runs through TSM, AVGO and ASML no matter who comes out on top.",b5cc0fb5e96e
+2026-11-25 (CT session),AVGO,BUY,0.1263,290.3,"I bought Broadcom (AVGO). I still like the chip industry, and it runs through TSM, AVGO and ASML no matter who comes out on top.",892b4d157b2e
+2026-11-25 (CT session),BRK-B,BUY,0.6351,577.24,I bought Berkshire Hathaway (BRK-B). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,d973f7200836
+2026-11-25 (CT session),BRK-B,BUY,0.0632,579.77,I bought Berkshire Hathaway (BRK-B). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,74c88fe3c247
+2026-11-25 (CT session),C,SELL,2.5174,110.35,"I sold all of my Citigroup (C). Citigroup is fine, but I found names I like more.",7d672bfc489b
+2026-11-25 (CT session),CI,SELL,1.3208,270.56,"I sold all of my Cigna (CI). Cigna is fine, but I found names I like more.",9c2b2bbc3abb
+2026-11-25 (CT session),CVX,SELL,1.4336,210.62,I sold all of my Chevron (CVX). I would rather own businesses that grow than guess where oil goes next.,b36ec3a5d775
+2026-11-25 (CT session),GEV,BUY,0.3055,683.88,I bought GE Vernova (GEV). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,8dbe0885b6c6
+2026-11-25 (CT session),GEV,BUY,0.0328,703.92,I bought GE Vernova (GEV). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,a570519d42ff
+2026-11-25 (CT session),GOOGL,BUY,0.0418,271.25,I added to Alphabet (GOOGL). A small add to bring it up to its planned weight.,2f5bb41dc3f7
+2026-11-25 (CT session),LDOS,SELL,2.6274,128.94,"I sold all of my Leidos (LDOS). Leidos is fine, but I found names I like more.",b2d60794d525
+2026-11-25 (CT session),LLY,BUY,0.2723,1390.69,I added to Eli Lilly (LLY). It is a name I already like and wanted more of.,1e2c99085b45
+2026-11-25 (CT session),LLY,BUY,0.0315,1393.79,I added to Eli Lilly (LLY). It is a name I already like and wanted more of.,773142717ccf
+2026-11-25 (CT session),MA,BUY,0.5678,645.73,I bought Mastercard (MA). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,2f2b715a9bd2
+2026-11-25 (CT session),MA,BUY,0.0559,655.95,I bought Mastercard (MA). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,57a8f27ae52c
+2026-11-25 (CT session),META,SELL,0.0152,609.89,Trimmed Meta Platforms (META) slightly at the close to keep its weight in line with the rest of the portfolio after the day's changes.,dae20058c13a
+2026-11-25 (CT session),MSFT,SELL,0.0266,489.93,Trimmed Microsoft (MSFT) slightly at the close to keep its weight in line with the rest of the portfolio after the day's changes.,dc0dd70381b4
+2026-11-25 (CT session),MU,SELL,0.4432,563.52,"I sold all of my Micron Technology (MU). My chip names had grown into a bigger share of the portfolio than I want. MU, AMD, AMAT and APH tend to move together, so I sold them and kept my chip exposure in TSM, AVGO and ASML.",1be723793c33
+2026-11-25 (CT session),NEM,SELL,2.8568,95.23,I sold all of my Newmont (NEM). I would rather own businesses that grow than guess where gold goes next.,2bf1eb4a0871
+2026-11-25 (CT session),NFLX,BUY,3.6664,57.62,I bought Netflix (NFLX). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,deee35ea1f9a
+2026-11-25 (CT session),NFLX,BUY,2.7038,57.66,I bought Netflix (NFLX). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,31156c8867a7
+2026-11-25 (CT session),NFLX,BUY,0.3740,58.81,I bought Netflix (NFLX). A solid company with steady cash flow that does not trade off the same news as the rest of my holdings.,e6b9cedd5c27
+2026-11-25 (CT session),NVDA,BUY,0.1784,146.14,I added to NVIDIA (NVDA). A small add to bring it up to its planned weight.,28d8f4f66997
+2026-11-25 (CT session),PGR,SELL,0.0740,238.7,Trimmed Progressive (PGR) slightly at the close to keep its weight in line with the rest of the portfolio after the day's changes.,e8f98fac2575
+2026-11-25 (CT session),TSM,BUY,1.0664,326.62,"I bought Taiwan Semiconductor (TSM). I still like the chip industry, and it runs through TSM, AVGO and ASML no matter who comes out on top.",d5dcffc3a9a1
+2026-11-25 (CT session),TSM,BUY,0.1091,335.9,"I bought Taiwan Semiconductor (TSM). I still like the chip industry, and it runs through TSM, AVGO and ASML no matter who comes out on top.",3cc8bf725961
+2026-11-25 (CT session),V,SELL,0.0329,424.39,Trimmed Visa (V) slightly at the close to keep its weight in line with the rest of the portfolio after the day's changes.,d1ff9125c44f
+2026-11-25 (CT session),XOM,SELL,1.9160,158.84,I sold all of my Exxon Mobil (XOM). I would rather own businesses that grow than guess where oil goes next.,278b0eb86d73
+2026-11-27 (CT session),ABBV,SELL,0.0158,291.88,Trimmed AbbVie (ABBV) slightly at the close to keep its weight in line with the rest of the portfolio.,be7cda299651
+2026-11-27 (CT session),ADMA,BUY,0.0661,14.11,I added to ADMA Biologics (ADMA). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,404611fd9b99
+2026-11-27 (CT session),AMZN,SELL,0.0221,254.12,Trimmed Amazon.com (AMZN) slightly at the close to keep its weight in line with the rest of the portfolio.,1be4266a40ea
+2026-11-27 (CT session),ASML,SELL,0.0092,1325.82,Trimmed ASML Holding (ASML) slightly at the close to keep its weight in line with the rest of the portfolio.,f0da1b2f9c4f
+2026-11-27 (CT session),AVGO,SELL,0.0240,312.34,Trimmed Broadcom (AVGO) slightly at the close to keep its weight in line with the rest of the portfolio.,bf26ecccb653
+2026-11-27 (CT session),BRK-B,SELL,0.0226,580.79,Trimmed Berkshire Hathaway (BRK-B) slightly at the close to keep its weight in line with the rest of the portfolio.,664396339685
+2026-11-27 (CT session),GEV,BUY,0.0067,725.59,I added to GE Vernova (GEV). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,0e659a293346
+2026-11-27 (CT session),GOOGL,BUY,0.0255,271.07,I added to Alphabet (GOOGL). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,f663f3ae496a
+2026-11-27 (CT session),LLY,BUY,0.0045,1386.62,I added to Eli Lilly (LLY). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,f3b2067c7c1e
+2026-11-27 (CT session),MA,SELL,0.0166,666.96,Trimmed Mastercard (MA) slightly at the close to keep its weight in line with the rest of the portfolio.,cfcf4bf1bcb1
+2026-11-27 (CT session),META,BUY,0.0075,623.65,I added to Meta Platforms (META). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,c6a1a7cdc4e2
+2026-11-27 (CT session),MSFT,BUY,0.0217,489.54,I added to Microsoft (MSFT). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,777ebb7bf407
+2026-11-27 (CT session),NFLX,BUY,0.0454,60.56,I added to Netflix (NFLX). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,5326aa562fe9
+2026-11-27 (CT session),NVDA,BUY,0.0444,146.09,I added to NVIDIA (NVDA). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,d521f6881aa1
+2026-11-27 (CT session),PGR,BUY,0.0634,239.21,I added to Progressive (PGR). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,34fcfc394440
+2026-11-27 (CT session),TSM,SELL,0.0381,353.34,Trimmed Taiwan Semiconductor (TSM) slightly at the close to keep its weight in line with the rest of the portfolio.,43200a7befa8
+2026-11-27 (CT session),V,BUY,0.0208,428.45,I added to Visa (V). Part of a small top-up across the portfolio to bring holdings up to their planned weights.,0aaace5a8285
